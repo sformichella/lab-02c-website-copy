@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 900pxpx;
+    justify-content: center;
+}
+
+main {
+    height: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: center;
+}
+
+.hyperlink {
+    color: blue;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.content-header {
+    font-size: 1.5em;
+}
+
+.center-text {
+    text-align: center;
+}
+
+/* Left Sidebar */
+
+.left-sidebar {
+    display: grid;
+    grid-template-rows: 70px 90px 60px 120px 250px 200px;
+    justify-items: center;
+    width: 150px;
+    margin: 10px;
+    border-left: solid 1px darkgrey;
+    border-right: solid 1px darkgrey;
+    background-color: lightgrey;
+}
+
+/* Middle Content */
+
+.middle {
+    display: grid;
+    grid-template-rows: 50px 100%;
+    margin: 10px;
+    width: 500px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: lightgrey;
+    border-top: solid 1px darkgrey;
+    border-bottom: solid 1px darkgrey;
+    padding: 0px 20px;
+}
+
+.city {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.counties span {
+    background-color: white;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    justify-items: center;
+    margin-top: 10px;
+}
+
+.content-left-col div {
+    background-color: lightgrey;
+    border-top: solid 1px darkgrey;
+    border-bottom: solid 1px darkgrey;
+    margin: 5px;
+    padding: 5px 20px;
+}
+
+.content-middle-col div {
+    padding: 5px 20px;
+    background-color: lightgrey;
+    border-top: solid 1px darkgrey;
+    border-bottom: solid 1px darkgrey;
+    margin: 5px;
+}
+
+.content-right-col div {
+    padding: 5px 20px;
+    background-color: lightgrey;
+    border-top: solid 1px darkgrey;
+    border-bottom: solid 1px darkgrey;
+    margin: 5px;
+}
+
+.content {
+    font-size: .5em;
+    font-weight: 300;
+}
+
+/* Right Sidebar */
+
+.right-sidebar {
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 100px 100%;
+    justify-items: center;
+    width: 150px;
+    background-color: lightgray;
+    border-left: solid 1px darkgrey;
+    border-right: solid 1px darkgrey;
+}
